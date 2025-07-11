@@ -1,0 +1,383 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html , body {
+    height: 100%;
+    width: 100%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: black;
+}
+
+.main1 {
+    height: 100%;
+    width: 100%;
+    background-image: url("./Mountain.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.main1 nav {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+nav .logo img {
+    height: 40px;
+    width: 40px;
+}
+
+nav .links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+nav .links a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    transition: all 0.5s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+nav .links .get-in-touch {
+    font-weight: 700;
+}
+
+
+nav .links a:hover {
+    transform: scale(1.1);
+    border-bottom: 1px solid black;
+}
+
+.main1 .text {
+    padding: 2rem;
+    margin-top: 5rem;
+}
+
+.main1 .text h2 {
+    font-size: 2.3rem;
+    font-weight: 400;
+}
+
+.main1 .text h2 span {
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.main1 .text p {
+    font-weight: 600;
+}
+
+.text .btns {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 1rem;
+}
+.text .btns button{
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: all 0.5s cubic-bezier(0.19, 1, 0.22, 1) ;
+}
+
+.text .btns button:hover {
+   transform: scale(1.1);
+}
+
+.btns p {
+    border-bottom: 1px solid black;
+    text-transform: uppercase;
+}
+
+.main1 .main-bottm-right-text {
+    position: absolute;
+    right: 2%;
+    bottom: 5%;
+    background-color: black;
+    padding: 5px 10px;
+    color: white;
+}
+
+.main2 {
+    height: 70%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 1rem;
+    padding: 20px;
+}
+
+.main2 .main2-text h2 {
+   font-size: 3.5rem;
+}
+
+
+.main2 .main2-text p {
+    margin-top: 1rem;
+    font-weight: 500;
+    line-height: 2rem;
+}
+
+.main2 .box {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 30px;
+    padding: 10px;
+}
+
+.main2 .box .box1 {
+    width: 30%;
+    height: 200px;
+}
+
+.main2 .box .box1 i{
+    font-size: 30px;
+}
+.main2 .box .box1 h3 {
+    font-weight: 600;
+    margin: 0.4rem 0;
+}
+
+.main2 .last-text {
+    padding: 2px;
+    border-bottom: 2px solid gray;
+    width: 200px;
+
+}
+
+.main2 .last-text p {
+    color: gray;
+    font-weight: 500;
+}
+
+.main3 {
+    width: 100%;
+    height: 80%;
+    background-color: rgba(220, 219, 219, 0.909);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main3 .main3-left {
+    width: 60%;
+    height: 100%;
+    padding: 30px;
+}
+
+.main3 .main3-left .main3-text h2 {
+   font-size: 3rem;
+   margin-bottom: 0.5rem;
+}
+
+.main3 .main3-left .main3-text p {
+    font-weight: 500;
+}
+
+.main3-left .main3-box-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 30px;
+}
+
+.main3-left .main3-box-container .left {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.main3-left .main3-box-container .left .top {
+    margin-top: 3rem;
+
+}
+
+.main3-left .main3-box-container .left .top h3 {
+    margin-bottom: 1rem;
+    font-weight:700;
+
+}
+
+.main3 .main3-right {
+    height: 100%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.main3 .main3-right .box-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    background-color: white;
+    height: 90%;
+    width: 100%;
+}
+
+.box-right .logo-img img {
+    width: 40px;
+    height: 40px;
+}
+
+.box-right h2 {
+   font-size: 1.3rem;
+   font-weight: 700;
+}
+
+.box-right p {
+    font-size: 1.1rem;
+}
+
+.box-right form input {
+    width: 100%;
+    padding: 20px 30px;
+    margin-top: 1rem;
+    background-color: rgb(206, 206, 206);
+    border: none;
+    text-align: center;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.box-right form p {
+    font-size: 0.7rem;
+}
+
+.box-right form p span {
+    border-bottom: 1px solid rgb(52, 52, 205);
+}
+
+.checkbox {
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    gap: 0.3rem;
+}
+
+.checkbox input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  align-self: center;
+}
+
+.box-right button {
+    margin-top: 1rem;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    height: 50px;
+    text-align: center;
+}
+
+footer {
+    margin-top: 1rem;
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 2rem;
+    padding: 20px;
+}
+
+footer .left {
+    width: 30%;
+    height: 90%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+footer .left .top img {
+   height: 40px;
+   width: 40px;
+}
+
+footer .left .top h3 {
+    font-size: 1.1rem;
+    padding-left: 2%;
+    margin-top: 5px;
+}
+
+
+footer .left .bottom p {
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+footer .right {
+    width: 70%;
+    height: 90%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+footer .right .top h3 {
+    text-transform: uppercase;
+    font-size: 0.9rem;
+}
+
+footer .right .top p {
+    font-size: 0.9rem;
+    margin-top: 5px;
+}
+footer .right .top p span {
+    font-style: italic;
+}
+
+footer .middle {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 5rem;
+}
+
+footer .middle .about h4 {
+    font-size: 0.8rem;
+    margin-bottom: 15px;
+}
+
+footer .middle .about p {
+    font-size: 0.7rem;
+    color: gray;
+    font-weight: 600;
+    margin: 5px 0;
+}
+
+footer .bottom .terms {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 30px;  
+}
+
+footer .bottom .terms h3 {
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
